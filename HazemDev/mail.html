@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Hazem Dev is a Front-End developer that can make a great website for you. also he is a desktop apps developer (Contact Page)">
+    <meta name="author" content="Hazem Dev">
+    <meta property="og:title" content="Contact Hazem Dev" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://i.ibb.co/nBmHm8H/favicon.png"/>
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="desktop icon" />
+    <meta property="og:description" 
+    content="Hazem Dev is a Front-End and desktop apps developer (Contact Page)" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Contact Hazem Dev</title>
+    <link rel="stylesheet" href="stylemail.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="form">
+      <div class="title">
+        <h2>CONTACT</h2>
+      </div>
+      <div class="half">
+        <div class="item">
+          <label for="name">CLIENT NAME</label>
+          <input type="text" id = "name">
+        </div>
+        <div class="item">
+          <label for="mail">EMAIL</label>
+          <input type="text" id = "mail">
+        </div>
+      </div>
+      <div class="full">
+        <label for="message">ABOUT PROJECT & PROJECT IDEA</label>
+        <textarea name="" id = "message"></textarea>
+      </div>
+      <div class="action">
+        <button id="send">SEND MESSAGE</button>
+      </div>
+      <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100080346408372" target="_blank" class="fa-brands fa-facebook-f"></a>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        emailjs.init('23aI3399X1vvkVtuw');
+    </script>
+    <script src="mail.js"></script>
+  </body>
+</html>
